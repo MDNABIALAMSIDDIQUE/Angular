@@ -3,5 +3,4 @@ function toggleMenu(){
     const icon = document.querySelector(".humburger-icon");
     menu.classList.toggle("open");
     icon.classList.toggle("open");
-
 }
