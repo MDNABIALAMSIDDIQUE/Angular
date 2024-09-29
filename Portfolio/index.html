@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediatype.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">MD NABI ALAM</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="humburger-nav">
+        <div class="logo">MD NABI ALAM</div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()"></a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img class="image-tag" src="/Portfolio/images/NABI Profile First.png"  alt="nabi Profile picture" style=" border-radius: 0.5rem ; border-top-left-radius: 6.5rem; border-top-right-radius: 6.5rem;"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello I'm</p>
+            <p class="title">MD NABI ALAM</p>
+            <p class="section_text_p2"> Backend Developer </p>
+            <div class=" btn-container">
+                <a href="./images/CV/NABI CV.pdf" target="_blank">
+                    <button class="btn btn-color-2">Download CV</button>
+                </a>
+                <button class="btn btn-color-1" onclick="location.href = './#contact'">Contact Info</button>
+             </div>
+
+             <!-- <div id="socials-container">
+                <img src="./logo/linkedin.png" alt="My linkedin Profile "
+                 class="icon" onclick="location.href ='https://www.linkedin.com/in/nabialam/'">
+                
+                </div> -->
+                <div id="socials-container">
+                    <img src="./logo/linkedin.png" alt="LinkedIn Profile "
+                         class="icon1" style="cursor: pointer;" onclick="window.open('https://www.linkedin.com/in/nabialam/', '_blank');">
+                         <img src="./logo/Github.png" alt="Github Profile"
+                         class="icon1" style="cursor: pointer;" onclick="window.open('https://github.com/mdnabialam', '_blank');"/>
+                </div>
+                
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me </h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./images/NABI_Profiles_-photoaidcom-cropped-removebg-preview.png"
+                 alt="profile picture"
+                 class="about-pic"
+                 />
+             </div>
+                 <div class="about-details-container">
+                    <div class="about-details">
+                        <div class="details-container">
+                            <img src="./logo/Experience.gif" 
+                            alt="Experience icon" 
+                            class="icon"/>
+                            <h3>Experience</h3>
+                            <p>2+ Years<br />Backend Development</p>
+                        </div>
+                         <div class="details-container">
+                            <img src="./logo/education.gif" 
+                            alt="education icon" 
+                            class="icon"/>
+                            <h3>Education</h3>
+                            <p class="bca">BCA Bachelor of Computer Application<br />
+                             MBA Master of Business Administratio<br />
+                             MCA Master of Computer Applications
+                            </p>
+                         </div>
+                     </div>
+                     <div class="text-container">
+                        <p class="text-containerp1">
+                           
+                            "Experienced Java Developer with 3+ years of expertise in building robust backend systems and APIs.
+                             Looking to join a forward-thinking team where I can apply my skills in Java, Spring Boot,
+                             and microservices architecture to create scalable and high-performance applications,utilizing a strong foundation in Java programming, RESTful APIs,
+                             Passionate about continuous improvement, agile methodologies, and implementing creative solutions to complex challenges in the tech industry
+                             Committed to continuous learning and driving improvements in development processes."
+                        </p>
+                     </div>
+                </div>                
+            </div>
+            <img src="./logo/down.gif" alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#experience'"
+            >
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div  class="experience-details-container">
+            <div class="about-container">
+                <div  class="details-container">
+                    <h2 class="experience-sub-title">Backend TECHNOLOGY</h2>
+                    <div class="artical-container">
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>Core JAVA</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>J2EE</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>SPRINGBOOT</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>REST API</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                             <div>
+                                <h3>MICROSERVICES </h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>SQL & ORACLE</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- HTML and CSS -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">UI TECHNOLOGY</h2>
+                    <div class="artical-container">
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>BOOTSTRAP</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/ id="js">
+                            <div>
+                                <h3 id="j1s">JS</h3>
+                                <p id="js1">Basic</p>
+                            </div>
+                        </article>
+
+                        <article >
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>ANGULAR</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- Tools  -->
+                 <div class="details-container">
+                    <h2 class="experience-sub-title">DEVOPS TOOLS</h2>
+                    <div class="artical-container">
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>Docker</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>Jenkins</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>Jira</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div>
+                                <h3>Maven</h3>
+                                <p>Experience</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./logo/chlbox.gif"
+                             alt="Experience icon" 
+                             class="icon"/>
+                            <div class="aws">
+                                <h3 class="aws">AWS</h3>
+                                <p class="aws1">Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./logo/down.gif" alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        >
+    </section >
+
+     <section id="projects" >
+        <p class="section_text_p1">Browser My Resent</p>
+        <h1 class="title">Project's</h1>
+        <div class="experience-details-container ">
+            <div class="about-container">
+            <div class="details-container"  style="background-color: rgb(234, 230, 222);">
+                    
+                       
+                        <a href="https://udyogplus.adityabirlacapital.com/" target="_blank">
+                            <img class="pro" src="./images/Project/ABFL.png" alt="abcl">
+                        </a>
+                        <button class="btn btn-color-2"
+                        onclick="location.href='https://udyogplus.adityabirlacapital.com/'">ABFL</button>
+                       </div>
+
+                        <div class="details-container"  style="background-color: rgb(234, 230, 222); border: 1px solid orange;">
+                            <a href="https://www.indusind.com/in/en/personal.html#" target="_blank">
+                                <img class="pro" src="./images/Project/Ind.png" alt="ondc" >
+                            </a>
+                            <button class="btn btn-color-2"
+                             onclick="location.href='https://www.indusind.com/in/en/personal.html#/'">INDUSIND</button>
+                        </div>
+
+                        <div class="details-container"  style="background-color: rgb(234, 230, 222);">
+                            <a href="https://uat.finagg.in:8228/finaggx/#/new-sme" target="_blank">
+                                <img class="pro" src="./images/Project/FINAGG.png" alt="finagg">
+                            </a>
+                            <button class="btn btn-color-2"
+                            onclick="location.href='https://uat.finagg.in:8228/finaggx/#/new-sme'">FINAGG</button>
+                        </div>
+                        <div class="details-container" style="background-color: rgb(234, 230, 222);">
+                            <a href="https://www.completepayroll.com/employee-login" target="_blank">
+                                <img class="pro" src="./images/Project/Emp.png" alt="Employee Image">
+                            </a>
+                            <button class="btn btn-color-2" onclick="location.href='https://www.completepayroll.com/employee-login'">
+                                EMPLOYEE
+                            </button>
+                        </div>
+          </div>      
+        </div>
+
+        <img src="./logo/down.gif" alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        >
+
+    </section> 
+
+    <!-- <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-upper-container">
+                <img src="./logo/email.gif" alt="Email Icon" 
+                class="icon contact-icon">
+                <p>
+                    <a href="mailto:nabi.alam@finagg.in">nabi.alam@finagg.in</a><br>
+                    <a href="mailto:nabi.alam@finagg.in">nabisiddiquee@gmail.com</a>
+                </p>
+          
+                <img src="./logo/LINKEDIN.gif" alt="LINKEDIN Icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/nabialam/" target="_blank">LINKEDIN</a>
+                </p>
+
+                <img src="./logo/whatsapp.gif" alt="WhatsApp Icon" class="icon contact-icon">
+                <p>
+                    <a href="https://web.whatsapp.com/send?phone=8507979430" target="_blank">WHATSAPP</a>
+                </p>
+            </div>            
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <!-- Email Section -->
+                <img src="./logo/email.gif" alt="Email Icon" class="icon contact-icon">
+                <p style="text-align: left;">
+                    <a href="mailto:nabi.alam@finagg.in">nabi.alam@finagg.in</a><br>
+                    <a href="mailto:nabi.alam@finagg.in">nabisiddiquee@gmail.com</a>
+                </p>
+            </div>    
+            <div class="contact-info-container">
+                <!-- LinkedIn Section -->
+                <img src="./logo/LINKEDIN.gif" alt="LINKEDIN Icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/nabialam/" target="_blank">Linkedin</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <!-- WhatsApp Section -->
+                <img src="./logo/whatsapp.gif" alt="WhatsApp Icon" class="icon contact-icon">
+                <p>
+                    <a href="https://web.whatsapp.com/send?phone=8789990697" target="_blank"></a>
+                    <a href="https://wa.me/8789990697" target="_blank">Chat with us on WhatsApp</a>
+                </p>
+
+            </div>
+                   
+        </div>
+        <img src="./logo/up-arrow.gif" alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#profile'"
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                   
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </div>
+        </nav>
+        <p>CopyRight &#169; 2024 MD NABI ALAM. All Rights Reserved</p>
+    </footer>
+    <script src="/Portfolio/script.js"></script>
+</body>
+</html>
